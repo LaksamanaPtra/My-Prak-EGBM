@@ -1,0 +1,17 @@
+PERSIAPAN DEMNAS UNTUK TC
+Area sumber: ../Area Akuisisi.gpkg, EPSG:32749.
+Buffer lokal: 10.000 m; buffer regional: 167.000 m.
+Extent buffer lokal WGS84: 112.569453783, -7.429124223, 112.762966459, -7.237206723.
+Unduh empat tile untuk mencakup seluruh persegi panjang Clip Raster by Extent:
+DEMNAS_1608-41_v1.0.tif
+DEMNAS_1608-42_v1.0.tif
+DEMNAS_1608-43_v1.0.tif
+DEMNAS_1608-44_v1.0.tif
+Tile 1608-44 diperlukan untuk sudut persegi panjang extent; tidak memotong polygon buffer bundar.
+Indeks sumber resmi: https://tanahair.indonesia.go.id/portal-web/demnas.json
+Portal unduh: https://tanahair.indonesia.go.id/portal-web/unduh/demnas
+Portal meminta login pengguna. Tidak ada file elevasi DEMNAS yang berhasil diunduh pada tahap ini.
+Endpoint ImageServer BIG gagal merespons saat diperiksa.
+DEMNAS menggunakan datum vertikal EGM2008; cocokkan datum elevasi stasiun sebelum menghitung TC.
+Raster Acuan_Lokasi_UTM49S.tif adalah RGB dari gambar Lokasi.png, BUKAN DEM. Georeferensi diperkirakan dari tick grid gambar. Jangan dipakai menghitung elevasi atau batas administrasi presisi.
+Batas akuisisi dan buffer memakai geometri asli GeoPackage. Judul/grid/skala/legenda adalah item layout QGIS. Batas/label kecamatan dan inset masih raster acuan.

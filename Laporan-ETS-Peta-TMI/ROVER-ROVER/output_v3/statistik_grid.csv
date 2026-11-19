@@ -1,0 +1,4 @@
+﻿dataset,grid,berkas,min_nT,max_nT,mean_nT,std_nT,n_sel_valid,rms_residual_nT,n_titik_residual,n_titik_luar_grid,rentang_warna_nT
+ROVER-ROVER,Kriging,rover-rover_TMI_Kriging_SurverV7.grd,-574.917,422.224,-38.762,164.433,1288,26.924,85,1,±900
+ROVER-ROVER,Minimum Curvature,rover-rover_TMI_MC_SurverV7.grd,-817.354,446.336,-41.982,181.089,1391,25.344,85,1,±900
+ROVER-ROVER,Selisih (MC - Kriging),Selisih_MC-Kriging.tif,-418.236,121.073,-6.378,47.988,1288,,,,±175

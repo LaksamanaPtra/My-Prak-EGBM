@@ -1,0 +1,2 @@
+﻿dataset,grid,berkas,min_nT,max_nT,mean_nT,std_nT,n_sel_valid,rms_residual_nT,n_titik_residual,n_titik_luar_grid,rentang_warna_nT
+BASE-ROVER,TMI raw (Minimum Curvature),raw_base-rover_TMI_RAW_SurferV7.grd,-1406.118,1159.585,129.579,325.787,1255,89.491,73,1,±1600

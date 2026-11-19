@@ -1,0 +1,4 @@
+﻿dataset,grid,berkas,min_nT,max_nT,mean_nT,std_nT,n_sel_valid,rms_residual_nT,n_titik_residual,n_titik_luar_grid,rentang_warna_nT
+BASE-ROVER,Kriging,base-rover_TMI_Kriging_SurferV7.grd,-1199.322,1056.413,-0.738,266.646,1199,92.547,73,1,±900
+BASE-ROVER,Minimum Curvature,base-rover_TMI_MC_SurferV7.grd,-1548.871,1046.567,3.186,328.920,1255,89.979,73,1,±900
+BASE-ROVER,Selisih (MC - Kriging),Selisih_MC-Kriging.tif,-1269.170,584.789,-4.328,144.359,1199,,,,±500

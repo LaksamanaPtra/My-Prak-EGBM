@@ -1,0 +1,25 @@
+Mulai 2026-10-16 02:02:00 — ROVER-ROVER (A4 portrait)
+Font: teks 9.5 pt, sub-judul 10.5 pt, judul 15.5 pt; batas minimum 7 x 210/160 = 9.19 pt
+Cek kontur Surfer — RR_Kontur_Kriging.shp: (a) OK 64 garis | (b) OK ZLEVEL -550..400 (grid -574.9..422.2) | (c) OK interval [np.float64(50.0)] | (d) OK extent di dalam grid
+Cek kontur Surfer — RR_Kontur_MC.shp: (a) OK 75 garis | (b) OK ZLEVEL -800..400 (grid -817.4..446.3) | (c) OK interval [np.float64(50.0)] | (d) OK extent di dalam grid
+Titik ukur: 86 fitur; base: 3 fitur
+Statistik grid identik dengan QGIS\ROVER-ROVER\output\statistik_grid.csv (3 grid x 8 kolom).
+Kontur selisih (GDAL, interval 50 nT): 31 garis
+Ambang label kontur peta RR_02: $length > 1000 m
+Ambang label kontur peta RR_03: $length > 1000 m
+Ambang label kontur peta RR_04: $length > 1000 m
+Layout '01 Desain Akuisisi': skala 1:22500, bingkai peta 184 x 201 mm (70.0 % tinggi area cetak); sisa ruang panel 9.7 mm -> RR_01_Desain_Akuisisi.png (9105 KB)
+Layout '02 TMI Kriging': skala 1:22500, bingkai peta 184 x 201 mm (70.0 % tinggi area cetak); kontur 64 garis; sisa ruang panel 2.6 mm -> RR_02_TMI_Kriging.png (2605 KB)
+Layout '03 TMI Minimum Curvature': skala 1:22500, bingkai peta 184 x 201 mm (70.0 % tinggi area cetak); kontur 75 garis; sisa ruang panel 2.6 mm -> RR_03_TMI_MC.png (2705 KB)
+Layout '04 Selisih MC - Kriging': skala 1:22500, bingkai peta 184 x 201 mm (70.0 % tinggi area cetak); kontur 31 garis; sisa ruang panel 2.6 mm -> RR_04_Selisih_MC-Kriging.png (2416 KB)
+Ukuran font terkecil di layout: 9.5 pt = 7.24 pt pada lebar 16 cm
+Project disimpan: D:\1. LAKSA\1. ITS BOYYY\3. Semester 3\7. Prak. EGBM\LAPORAN ETS (2)\QGIS\ROVER-ROVER\Peta_Rover-Rover_v2.qgz
+--- Peta 05 TMI raw MC — 2026-10-16 14:45:13
+Cek raw (a) OK: 32x47 sel, sel 88 m, origin 683032/9.07755e+06
+Cek raw (b) OK: min -802.57, max 448.70, mean -42.77, 1391 sel valid (harap -802.57, 448.7, -42.77, 1391)
+Cek raw (c) OK: RR_Kontur_RAW_MC.shp ZLEVEL -800..400, interval [np.float64(50.0)]
+Statistik raw: min -802.568, max 448.696, mean -42.768, std 180.514, 1391 sel; RMS residual 25.498 nT (85 titik, 1 di luar/tepi grid) -> statistik_grid_raw.csv
+Kontur raw (Surfer 23): 75 garis; ambang label $length > 1000 m
+Layout '05 TMI Raw MC': skala 1:22500, bingkai peta 184 x 201 mm (70.0 % tinggi area cetak); kontur 75 garis; sisa ruang panel 2.6 mm -> RR_05_TMI_Raw_MC.png (2704 KB)
+Ukuran font terkecil peta 05: 9.5 pt = 7.24 pt pada lebar 16 cm
+Layout '05 TMI Raw MC' ditambahkan ke Peta_Rover-Rover_v2.qgz

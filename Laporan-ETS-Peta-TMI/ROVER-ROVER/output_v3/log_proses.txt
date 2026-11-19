@@ -1,0 +1,20 @@
+Mulai 2026-10-16 15:11:43 — ROVER-ROVER (A4 landscape, layout v3)
+Font: teks 11.2 pt, sub-judul 12.2 pt, judul 18.0 pt; batas minimum 6 x 297/160 = 11.14 pt
+Cek kontur Surfer — RR_Kontur_Kriging.shp: (a) OK 64 garis | (b) OK ZLEVEL -550..400 (grid -574.9..422.2) | (c) OK interval [np.float64(50.0)] | (d) OK extent di dalam grid
+Cek kontur Surfer — RR_Kontur_MC.shp: (a) OK 75 garis | (b) OK ZLEVEL -800..400 (grid -817.4..446.3) | (c) OK interval [np.float64(50.0)] | (d) OK extent di dalam grid
+Cek raw: (a) OK geometri 32x47, 88 m | (b) OK min -802.57 max 448.70 mean -42.77 1391 sel | (c) OK ZLEVEL -800..400
+Titik ukur: 86 fitur; base: 3 fitur
+Statistik grid identik dengan QGIS\ROVER-ROVER\output\statistik_grid.csv (3 grid x 8 kolom).
+Statistik raw: min -802.568, max 448.696, mean -42.768, std 180.514, 1391 sel; RMS residual 25.498 nT (85 titik)
+Kontur selisih (GDAL, interval 50 nT): 31 garis
+Ambang label kontur peta RR_02: $length > 1000 m
+Ambang label kontur peta RR_03: $length > 1000 m
+Ambang label kontur peta RR_04: $length > 1000 m
+Ambang label kontur peta RR_05: $length > 1000 m
+Layout '01 Desain Akuisisi': skala 1:27500, bingkai peta 182 x 163 mm (63.6 % lebar area cetak); ruang sisa panel 21.1 mm -> RR_01_Desain_Akuisisi.png (8315 KB)
+Layout '02 TMI Kriging': skala 1:27500, bingkai peta 182 x 163 mm (63.6 % lebar area cetak); kontur 64 garis; ruang sisa panel 7.0 mm -> RR_02_TMI_Kriging.png (2776 KB)
+Layout '03 TMI Minimum Curvature': skala 1:27500, bingkai peta 182 x 163 mm (63.6 % lebar area cetak); kontur 75 garis; ruang sisa panel 7.0 mm -> RR_03_TMI_MC.png (2853 KB)
+Layout '04 Selisih MC - Kriging': skala 1:27500, bingkai peta 182 x 163 mm (63.6 % lebar area cetak); kontur 31 garis; ruang sisa panel 11.0 mm -> RR_04_Selisih_MC-Kriging.png (2598 KB)
+Layout '05 TMI Raw MC': skala 1:27500, bingkai peta 182 x 163 mm (63.6 % lebar area cetak); kontur 75 garis; ruang sisa panel 2.5 mm -> RR_05_TMI_Raw_MC.png (2856 KB)
+Ukuran font terkecil di layout: 11.2 pt = 6.03 pt pada lebar 16 cm
+Project disimpan: D:\1. LAKSA\1. ITS BOYYY\3. Semester 3\7. Prak. EGBM\LAPORAN ETS (2)\QGIS\ROVER-ROVER\Peta_Rover-Rover_v3.qgz

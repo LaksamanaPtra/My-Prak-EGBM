@@ -1,0 +1,8 @@
+INPUT OASIS MONTAJ - PERSIAPAN TC
+Lokal: DEM_Lokal_10m.ers, dari merge 6 DEMNAS; extent buffer area 10 km; resolusi 10 m.
+Regional: DEM_Regional_200m.ers, dari BATNAS; extent buffer area 167 km; resolusi 200 m.
+CRS: WGS84 UTM49S. NoData -9999, bukan 0. Kedua grid telah diverifikasi penuh tanpa NoData.
+Simpan file .ers bersama file data bernama sama tanpa ekstensi.
+Parameter PPT: densitas awal 2.67 g/cc, inner 10000 m, outer 167000 m.
+Grid regional masih elevasi, bukan hasil Create Regional Correction Grid. TC gravitasi belum dihitung.
+CSV Z merupakan estimasi DEM EGM2008, bukan elevasi pengukuran. BATNAS memakai MSL; kesesuaian datum vertikal harus dinilai sebelum TC final.

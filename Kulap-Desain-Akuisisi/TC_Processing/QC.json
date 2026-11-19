@@ -1,0 +1,47 @@
+{
+  "tiles": [
+    "1508-62",
+    "1508-64",
+    "1608-41",
+    "1608-42",
+    "1608-43",
+    "1608-44"
+  ],
+  "crs": "EPSG:32749",
+  "method": "Merge DEMNAS; clip by buffer extent and reproject, bilinear",
+  "nodata": -9999,
+  "outputs": {
+    "DEM_Lokal_10m": {
+      "source": "DEMNAS merge",
+      "radius_m": 10000,
+      "resolution_m": 10,
+      "shape": [
+        2124,
+        2138
+      ],
+      "valid_pct": 100.0,
+      "nodata_pixels": 0,
+      "min": -4.152440547943115,
+      "max": 55.958438873291016
+    },
+    "DEM_Regional_200m": {
+      "source": "BATNAS",
+      "radius_m": 167000,
+      "resolution_m": 200,
+      "shape": [
+        1677,
+        1678
+      ],
+      "valid_pct": 100.0,
+      "nodata_pixels": 0,
+      "min": -2280.634521484375,
+      "max": 3617.462158203125
+    }
+  },
+  "stations": 90,
+  "TC_computed": false,
+  "vertical_datums": {
+    "DEMNAS": "EGM2008",
+    "BATNAS": "MSL"
+  }
+}

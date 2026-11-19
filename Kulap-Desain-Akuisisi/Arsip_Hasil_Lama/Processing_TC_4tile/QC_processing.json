@@ -1,0 +1,40 @@
+{
+  "source_tiles": [
+    "1508-62",
+    "1508-64",
+    "1608-41",
+    "1608-43"
+  ],
+  "horizontal_crs": "EPSG:32749",
+  "nodata": -9999,
+  "density_for_later_TC_g_cm3": 2.67,
+  "local_radius_m": 10000,
+  "regional_radius_m": 167000,
+  "outputs": {
+    "Local_10m_INCOMPLETE": {
+      "resolution_m": 10,
+      "width": 2138,
+      "height": 2124,
+      "valid_pct": 93.25711411654238,
+      "nodata_count": 306202,
+      "valid_min": -4.1514482498168945,
+      "valid_max": 55.958438873291016
+    },
+    "Regional_200m": {
+      "resolution_m": 200,
+      "width": 1678,
+      "height": 1677,
+      "valid_pct": 100.0,
+      "nodata_count": 0,
+      "valid_min": -2280.634521484375,
+      "valid_max": 3617.462158203125
+    }
+  },
+  "station_count": 90,
+  "station_elevation_status": "DEM estimates only, not surveyed heights",
+  "vertical_datums": {
+    "local": "EGM2008",
+    "regional": "MSL (source BATNAS); compatibility must be assessed before final TC"
+  },
+  "status": "LOCAL COVERAGE INCOMPLETE; no final terrain correction computed"
+}

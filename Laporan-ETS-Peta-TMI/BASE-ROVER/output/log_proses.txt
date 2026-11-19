@@ -1,0 +1,17 @@
+Mulai 2026-10-16 00:53:44 — BASE-ROVER
+Base 'Base station' 111.638979, -7.795342 (EPSG:4326) -> 570451.05, 9138274.01 (EPSG:32749)
+Titik ukur: 74 fitur; base: 1 fitur
+Grid Anomali TMI – Kriging: 49x26 sel, CRS EPSG:32749, ekstent 567412.5,9137563.5 : 572263.5,9140137.5; titik di dalam ekstent: 74/74
+Grid Anomali TMI – Minimum Curvature: 49x26 sel, CRS EPSG:32749, ekstent 567412.5,9137563.5 : 572263.5,9140137.5; titik di dalam ekstent: 74/74
+Selisih: 1199 sel valid (= irisan sel valid Kriging dan MC)
+R: P98(|Kriging ∪ MC|) = 864.30 nT -> R = ±900 nT
+S: P98(|MC − Kriging|) = 484.52 nT -> S = ±500 nT
+RMS residual Kriging: 92.547 nT (73 titik, 1 titik di luar/tepi grid)
+RMS residual Minimum Curvature: 89.979 nT (73 titik, 1 titik di luar/tepi grid)
+Kontur kontur_kriging: 82 garis (interval 100 nT)
+Kontur kontur_mc: 120 garis (interval 100 nT)
+Layout '01 Desain Akuisisi': skala 1:32500, grid 500 m, legenda s.d. y=29.0 mm, teks info mulai y=155.0 mm -> BR_01_Desain_Akuisisi.png (4590 KB)
+Layout '02 TMI Kriging': skala 1:32500, grid 500 m, legenda s.d. y=29.0 mm, teks info mulai y=155.0 mm -> BR_02_TMI_Kriging.png (2403 KB)
+Layout '03 TMI Minimum Curvature': skala 1:32500, grid 500 m, legenda s.d. y=29.0 mm, teks info mulai y=155.0 mm -> BR_03_TMI_MC.png (2594 KB)
+Layout '04 Selisih MC - Kriging': skala 1:32500, grid 500 m, legenda s.d. y=29.0 mm, teks info mulai y=155.0 mm -> BR_04_Selisih_MC-Kriging.png (1898 KB)
+Project disimpan: D:\1. LAKSA\1. ITS BOYYY\3. Semester 3\7. Prak. EGBM\LAPORAN ETS (2)\QGIS\BASE-ROVER\Peta_Base-Rover.qgz

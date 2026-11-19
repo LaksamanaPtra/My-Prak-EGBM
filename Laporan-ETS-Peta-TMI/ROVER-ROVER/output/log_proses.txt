@@ -1,0 +1,16 @@
+Mulai 2026-10-16 00:53:40 — ROVER-ROVER
+Titik ukur: 86 fitur; base: 3 fitur
+Grid Anomali TMI – Kriging: 32x47 sel, CRS EPSG:32749, ekstent 682988.0,9077503.0 : 685804.0,9081639.0; titik di dalam ekstent: 86/86
+Grid Anomali TMI – Minimum Curvature: 32x47 sel, CRS EPSG:32749, ekstent 682988.0,9077503.0 : 685804.0,9081639.0; titik di dalam ekstent: 86/86
+Selisih: 1288 sel valid (= irisan sel valid Kriging dan MC)
+R: P98(|Kriging ∪ MC|) = 484.87 nT -> R = ±500 nT
+S: P98(|MC − Kriging|) = 166.82 nT -> S = ±175 nT
+RMS residual Kriging: 26.924 nT (85 titik, 1 titik di luar/tepi grid)
+RMS residual Minimum Curvature: 25.344 nT (85 titik, 1 titik di luar/tepi grid)
+Kontur kontur_kriging: 63 garis (interval 50 nT)
+Kontur kontur_mc: 76 garis (interval 50 nT)
+Layout '01 Desain Akuisisi': skala 1:30000, grid 500 m, legenda s.d. y=29.0 mm, teks info mulai y=155.0 mm -> RR_01_Desain_Akuisisi.png (5170 KB)
+Layout '02 TMI Kriging': skala 1:30000, grid 500 m, legenda s.d. y=29.0 mm, teks info mulai y=155.0 mm -> RR_02_TMI_Kriging.png (2324 KB)
+Layout '03 TMI Minimum Curvature': skala 1:30000, grid 500 m, legenda s.d. y=29.0 mm, teks info mulai y=155.0 mm -> RR_03_TMI_MC.png (2430 KB)
+Layout '04 Selisih MC - Kriging': skala 1:30000, grid 500 m, legenda s.d. y=29.0 mm, teks info mulai y=155.0 mm -> RR_04_Selisih_MC-Kriging.png (1826 KB)
+Project disimpan: D:\1. LAKSA\1. ITS BOYYY\3. Semester 3\7. Prak. EGBM\LAPORAN ETS (2)\QGIS\ROVER-ROVER\Peta_Rover-Rover.qgz
